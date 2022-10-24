@@ -1,0 +1,29 @@
+.PaginationWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+	.PaginationButton {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 10%;
+		height: 30px;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		margin: 0 5px;
+		cursor: pointer;
+		&:hover {
+			background: #ccc;
+		}
+	}
+
+	.CurrentPage {
+		font-size: 22px;
+		margin: 0 10px;
+	}
+	button {
+		border: none;
+		background: transparent;
+	}
+}

@@ -1,0 +1,23 @@
+.galleryWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px auto;
+	padding: 0 20px;
+	gap: 20px;
+	.galleryImage {
+		width: 300px;
+		height: 200px;
+		border-radius: 0.5rem;
+	}
+	.galleryImage:hover {
+		width: 320px;
+		height: 220px;
+		transition: all 0.3s ease-in-out;
+	}
+	.noPhotosLegend {
+		font-size: 1.5rem;
+		font-weight: 600;
+		padding: 50px;
+	}
+}

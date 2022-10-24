@@ -1,0 +1,56 @@
+.FiltersWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 2rem 1rem;
+	background-color: #021114;
+	color: #ccc;
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+
+	.Filters {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.Filter {
+			display: flex;
+			flex-direction: column;
+			margin-right: 20px;
+			.FilterTitle {
+				font-size: 14px;
+				font-weight: 600;
+				margin-bottom: 10px;
+			}
+			select {
+				width: 100%;
+				height: 30px;
+				border: 1px solid #ccc;
+				border-radius: 0.5rem;
+				padding: 0 10px;
+				margin-bottom: 10px;
+			}
+			input {
+				height: 29px;
+				border: 1px solid #ccc;
+				border-radius: 0.5rem;
+				padding: 0 10px;
+				margin-bottom: 10px;
+			}
+			option {
+				font-size: 14px;
+				font-weight: 600;
+				margin-bottom: 10px;
+			}
+			.FilterInput {
+				font-family: "Courier New", Courier, monospace;
+				font-size: 14px;
+				font-weight: 500;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
